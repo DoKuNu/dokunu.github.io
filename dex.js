@@ -12,7 +12,7 @@ window.onload = function()
             showText("#home"," 10 rue de la place, 77410 Claye-Souilly", 0, 80);
             showText("#phone","  06.69.79.35.54", 0, 80);
             showText("#mail","  dokunu@gmail.com", 0, 80);
-            showText("#web","  mhcross.fr", 0, 80);
+            showText("#web","  dokunu.github.io", 0, 80);
         }, 2100);
     })
     document.getElementById('mmilogo').className = "slide";
@@ -27,7 +27,7 @@ window.onload = function()
     document.getElementById('phpgauge').className += " slide";
     document.getElementById('htmlgauge').className += " slide";
     document.getElementById('jsgauge').className += " slide";
-    document.getElementById('cssgauge').className += " slide";
+    document.getElementById('androidgauge').className += " slide";
 
     var photo = document.getElementById('img');
     var overlay = document.getElementById('overlay');

@@ -11,8 +11,8 @@ div{
 }
 img {
     position: absolute;
-    width: 170px;
-    height: 220px;
+    width: 172px;
+    height: 245px;
     border-width: 0px;
     border-style:solid;
     border-radius: 5px;
@@ -22,7 +22,7 @@ img {
 #photo{
     position: absolute;
     margin-top: 130px;
-    margin-left: 90px;
+    margin-left: 83px;
     width: 320px;
     height: 320px;
     border-radius: 5px;
@@ -31,13 +31,13 @@ img {
 #overlay{
     position: absolute;
     margin-top: 130px;
-    margin-left: 90px;
-    background-image: url('img/moi.jpg');
-    background-size: 170px 220px;
+    margin-left: 83px;
+    background-image: url('http://puu.sh/wsSRk/4d309ba7cf.jpg');
+    background-size: 172px 245px;
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
-    width: 170px;
-    height: 220px;
+    width: 172px;
+    height: 245px;
     border-radius: 5px;
     z-index: 2;
 }
@@ -76,11 +76,11 @@ img {
 #border {
     position: absolute;
     margin-top: 120px;
-    margin-left: 80px;
+    margin-left: 73px;
     z-index: 1;
     background-color: #B0B0B0;
     width: 190px;
-    height: 240px;
+    height: 265px;
     border-radius: 20px;
 }
 #namebox {
@@ -239,8 +239,8 @@ img {
 #htmlgauge {
     width: 100px;
 }
-#cssgauge {
-    width: 95px;
+#androidgauge {
+    width: 92px;
 }
 #border4 {
     margin-top: 520px;
