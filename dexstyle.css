@@ -113,6 +113,12 @@ img {
     background-color: #30DA0C;
     background: linear-gradient(#ACFB76, #30DA0C);
 }
+.fa-mobile {
+    padding-right: 5px;
+}
+.fa-at {
+    padding-right: 2px;
+}
 #infosbox{
     height: 400px;
 }
@@ -124,19 +130,20 @@ img {
 }
 #phone {
      position: absolute;
-     margin-top: 80px;
+     margin-top: 30px;
      margin-left: 18px;
+     padding-right: 5px;
      font-family: 'Roboto', sans-serif;
 }
 #mail {
     position: absolute;
-    margin-top: 120px;
+    margin-top: 80px;
     margin-left: 14px;
     font-family: 'Roboto', sans-serif;
 }
 #web {
     position: absolute;
-    margin-top: 160px;
+    margin-top: 130px;
     margin-left: 14px;
     font-family: 'Roboto', sans-serif;
 }
@@ -260,6 +267,8 @@ img {
 #mmilogo {
     margin-left: 180px;
     width: 150px;
+    transform: scale(0.6);
+    margin-top: -10px;
 }
 #logohl {
     margin-left: 130px;
@@ -290,14 +299,14 @@ img {
 }
 #title {
     position: absolute;
-    margin-left: 28px;
-    margin-top: -8px;
+    margin-left: 3px;
+    margin-top: -10px;
 }
 #titlescreen {
-    margin-left: 790px;
+    margin-left: 749px;
     margin-top: 25px;
-    width: 100px;
-    height: 50px;
+    width: 200px;
+    height: 78px;
 }
 h2 {
     text-align: center;

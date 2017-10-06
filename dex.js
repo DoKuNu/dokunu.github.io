@@ -9,13 +9,11 @@ window.onload = function()
     $(function () {
         setTimeout(function(){
             showText("#name","PERY-KASZA Antoine", 0, 100);
-            showText("#home"," 10 rue de la place, 77410 Claye-Souilly", 0, 80);
             showText("#phone","  06.69.79.35.54", 0, 80);
             showText("#mail","  dokunu@gmail.com", 0, 80);
             showText("#web","  dokunu.github.io", 0, 80);
         }, 2100);
     })
-    document.getElementById('mmilogo').className = "slide";
     document.getElementById('logohl').className = "slide";
     document.getElementById('gamepad').className += " slide";
     document.getElementById('englishgauge').className += " slide";
