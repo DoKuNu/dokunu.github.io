@@ -10,22 +10,21 @@ window.onload = function()
         setTimeout(function(){
             showText("#name","PERY-KASZA Antoine", 0, 100);
             showText("#phone","  06.69.79.35.54", 0, 80);
-            showText("#mail","  dokunu@gmail.com", 0, 80);
+            showText("#mail","  antoine.pkza@gmail.com", 0, 80);
             showText("#web","  dokunu.github.io", 0, 80);
         }, 2100);
     })
     document.getElementById('logohl').className = "slide";
     document.getElementById('gamepad').className += " slide";
-    document.getElementById('englishgauge').className += " slide";
-    document.getElementById('esgauge').className += " slide";
-    document.getElementById('jpgauge').className += " slide";
-    document.getElementById('psgauge').className += " slide";
-    document.getElementById('prgauge').className += " slide";
-    document.getElementById('idgauge').className += " slide";
     document.getElementById('phpgauge').className += " slide";
     document.getElementById('htmlgauge').className += " slide";
     document.getElementById('jsgauge').className += " slide";
     document.getElementById('androidgauge').className += " slide";
+    document.getElementById('javagauge').className += " slide";
+    document.getElementById('kotlingauge').className += " slide";
+    document.getElementById('englishgauge').className += " slide";
+    document.getElementById('esgauge').className += " slide";
+    document.getElementById('jpgauge').className += " slide";
 
     var photo = document.getElementById('img');
     var overlay = document.getElementById('overlay');
