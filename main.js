@@ -61,7 +61,7 @@ window.onload = function()
                         document.getElementById("dokubar").style.width = "110px";
                         document.getElementById("text").innerHTML = "";
                         document.getElementById("subtext").innerHTML = "";
-                        showText("#text","Pikachu montre l'activité de l'entreprise ! ", 0, 10);
+                        showText("#text","Pikachu montre le salaire promis à l'embauche ! ", 0, 10);
                         setTimeout(function(){
                             showText("#subtext","Antoine est assez impressionné.", 0, 10);
                         }, 650);
@@ -81,7 +81,7 @@ window.onload = function()
                         document.getElementById("dokubar").style.backgroundColor = "red";
                         document.getElementById("text").innerHTML = "";
                         document.getElementById("subtext").innerHTML = "";
-                        showText("#text","Pikachu montre le salaire reversé !", 0, 10);
+                        showText("#text","Pikachu montre les projets de l'entreprise !", 0, 10);
                         setTimeout(function(){
                             showText("#subtext","Antoine est TOTALEMENT impressionné!!!", 0, 10);
                         }, 650);
