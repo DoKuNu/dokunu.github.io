@@ -11,7 +11,7 @@ window.onload = function()
             showText("#name","PERY-KASZA Antoine", 0, 100);
             showText("#phone","  06.69.79.35.54", 0, 80);
             showText("#mail","  antoine.pkza@gmail.com", 0, 80);
-            showText("#web","  dokunu.github.io", 0, 80);
+            showText("#web"," apekka.github.io", 0, 80);
         }, 2100);
     })
     document.getElementById('logohl').className = "slide";
