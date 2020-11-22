@@ -80,7 +80,8 @@
 # League 2 - Division 1  ###
 ############################
 - name: Wandrall
-  character: slayer
+  character: jam
+  twitter: https://twitter.com/Wandrall3
 
 - name: Achorawl
   character: zappa
