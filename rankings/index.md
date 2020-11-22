@@ -12,7 +12,7 @@ comments: false
 
 <center>Ce tier rassemble les joueurs qui ont su s'illustrer, cependant le 4e du groupe est relégable au tier inférieur.</center> <br/>
 
-| 1er | {{site.data.players[0].name}}| <img class="char" src="../assets/img/chars/{{site.data.players[0].character}}.png" width="200" height="200" > |
+| 1ER | {{site.data.players[0].name}} {% if site.data.players[0].twitter %}<a class="social-btn" href="{{site.data.players[0].twitter}}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-twitter-square"></i></a>{% endif %}| <img class="char" src="../assets/img/chars/{{site.data.players[0].character}}.png" width="200" height="200" > |
 |-----|-------------|-----|
 | 2e  | {{site.data.players[1].name}}| <img class="char" src="../assets/img/chars/{{site.data.players[1].character}}.png" width="200" height="200" > |
 | 3e  | {{site.data.players[2].name}}| <img class="char" src="../assets/img/chars/{{site.data.players[2].character}}.png" width="200" height="200" > |

@@ -19,39 +19,13 @@ kramdown:
   entity_output:    as_char
   toc_levels:       1..6
   enable_coderay:   false
-mathjax:            true
+mathjax:            false
 sass:
   sass_dir:         _sass
   style:            compressed
 
 # Comments
 disqus_shortname:   taylantatli
-
-# Players
-aerisu:
-  name: Aerisu
-  character: ordersol
-  twitter: https://twitter.com/aerisuGG
-
-dreammaker:
-  name: Dream Maker
-  character: anji
-
-bak0:
-  name: Bak0
-  character: axl
-  twitter: https://twitter.com/FRBak0
-
-akabane:
-  name: Akabane
-  character: zappa
-
-# Ranking
-league11:
-  first: aerisu
-  second: dreammaker
-  third: bak0
-  fourth: akabane
 
 # Social
 # if you don't have any of social below, comment the line.
