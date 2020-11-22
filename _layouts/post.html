@@ -10,40 +10,67 @@ layout: compress
     {% include head.html %}
 </head>
 <body>
-    {% include nav.html %}
     <!-- Header -->
     <header class="header" role="banner">
         <div class="wrapper animated fadeIn">
             <div class="content">
-                <div class="post-title {% if page.feature %} feature {% endif %}">
-                    <h1>{{ page.title }}</h1>
-                    <h4>{{ page.date | date_to_string }}</h4>
-                    {% if site.reading_time %}
-                    <p class="reading-time">
-                      <i class="fa fa-clock-o"></i>
-                      {% include read-time.html %}
-                    </p><!-- /.entry-reading-time -->
-                    {% endif %}
-                    {% if page.project %}
-                    <a class="btn zoombtn" href="{{site.url}}/projects/">
-                    {% else %}
-                    <a class="btn zoombtn" href="{{site.url}}/posts/">
-                    {% endif %}
+                <h1>{{ page.title }}</h1>
+                    <a class="btn zoombtn" href="javascript:history.back()">
                         <i class="fa fa-chevron-left"></i>
                     </a>
-                </div>
-                {{ content }}
-                <div class="entry-meta">
-                {% include meta.html %}
-                </div>
+                <p>
+                    La League des Gears est composée de deux leagues « 1 » et « 2 », contenant chacune 4 divisions.<br/>
+Les participants de chaque division devront s’affronter pour définir un classement entre eux.<br/>
+Comme dans une ligue de sport, le premier de chaque division sera promu à la division supérieure (sauf si vous êtes dans la plus haute) et le dernier sera relégué à la division inférieure (sauf si vous êtes dans la plus basse)<br/><br/>
+
+C’est beau mais comment ça marche ?<br/>
+La league 1, composée de 4 divisions : <br/><br/>
+
+1/ « God tier » composée de 4 joueurs, dont 1 qui sera relégable<br/>
+2/ « Top tier » composée de 4 joueurs, dont le 1er promu à la division du dessus, et 1 relégable<br/>
+3/ « Mid tier » composée de 4 joueurs, dont 1er promu à la division du dessus, et 2 relégables <br/>
+4/ « Low tier » composée de 6 joueurs, dont le top 2 promus à la division du dessus et 2 relégables à la league inférieur<br/><br/>
+
+La league 2, composée de 4 divisons :<br/>
+1/ “God tier” composée de 4 joueurs, dont 2 qui seront promus à la League du dessus 1 qui sera relégable<br/>
+2/ “Top tier” composée de 4 joueurs, dont 1 promu à la division du dessus, et 1 relégable<br/>
+3/ “Mid tier” composée de 4 joueurs, dont 1 promu à la division du dessus et 2 relégables<br/>
+4/ “Low tier” composée d’un nombre infini de joueur pour le moment, dont le top 2 promus<br/>
+Comment se déroule la ligue ?<br/><br/>
+
+Semaine 1 : <br/><br/>
+
+Les joueurs de la division 3 de chaque League se rencontrent en FT3 (de préférence le mercredi soir qu’on puisse streamer).<br/>
+Si jamais vous ne pouvez pas faire vos matchs le soir voulu ce n’est pas grave, cependant il sera obligatoire de faire vos matchs la semaine de votre division.<br/>
+Fin de semaine 1, le classement de chaque division est visible.<br/>
+En cas d’égalité entre plusieurs joueurs, que ce soit pour monter ou descendre de division des matchs supplémentaires seront fait pour les départager.<br/><br/>
+
+Semaine 2 :<br/><br/>
+
+Même chose pour la division 2 de chaque League<br/><br/>
+
+Semaine 3 : <br/><br/>
+
+Même chose pour la division 1 de chaque League<br/><br/>
+
+Semaine 4 : <br/><br/>
+
+Remise au propre du classement par League et division pour savoir qui monte ou qui descend de division et ou League<br/>
+Ouin ouin ouin et ils font quoi les mecs de la Division 4 de chaque League ?<br/><br/>
+
+Eux ce sont un peu les rénégats de chaque League, sont beaux et mignons mais ils sentent un peu fort…<br/>
+Du coup eux ils ont 3 semaines pour faire leurs matchs entre eux et faire leurs classements.<br/>
+C’est un peu la pataugeoire de chaque League quoi xD<br/><br/>
+
+Semaine 5 on recommence le schéma des 3 semaines de bagarre et la 4e de classement <br/><br/>
+
+Le classement des 2 derniers tournoi va nous servir pour classer les joueurs de chaque League et division<br/><br/>
+
+Si nous avons plus de joueurs nous pourrons faire évoluer le projet<br/><br/>
+
+(par Aerisu et Millia, du Discord GG France)
             </div>
         </div>
-        {% if page.comments and site.disqus_shortname %}<section id="disqus_thread" class="animated fadeInUp"></section><!-- /#disqus_thread -->{% endif %}
     </header>
-    {% include scripts.html %}
-    {% if site.mathjax == true %}
-    <!-- MathJax -->
-    <script async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-    {% endif %}
 </body>
 </html>

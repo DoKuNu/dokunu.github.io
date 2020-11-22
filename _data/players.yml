@@ -57,14 +57,14 @@
 ############################
 # League 1 - Division 4  ###
 ############################
-- name: Tnor
+- name: T-nor
   character: ky
 
 - name: Masker
   character: ordersol
 
 - name: Taylor Wesker
-  character: johnny
+  character: sol
 
 - name: Arq
   character: bridget
@@ -75,3 +75,85 @@
 
 - name: Keev
   character: dizzy
+
+############################
+# League 2 - Division 1  ###
+############################
+- name: Wandrall
+  character: slayer
+
+- name: Achorawl
+  character: zappa
+  twitter: https://twitter.com/Achorawl
+
+- name: Cuongster
+  character: eddie
+  twitter: https://twitter.com/Cuongster
+
+- name: Rygz
+  character: testament
+  twitter: https://twitter.com/Rygzz
+
+############################
+# League 2 - Division 2  ###
+############################
+- name: Xenyz
+  character: sol
+
+- name: Mutsui
+  character: sol
+  twitter: https://twitter.com/Mutsuiii
+
+- name: Labrique
+  character: dizzy
+
+- name: Cybelius
+  character: sol
+
+############################
+# League 2 - Division 3  ###
+############################
+- name: Robo-Qui?
+  character: roboky
+
+- name: DoKuNu
+  character: ordersol
+  twitter: https://twitter.com/DoKuNuKuN
+
+- name: Tehuur
+  character: potemkin
+
+- name: Greed
+  character: aba
+
+############################
+# League 2 - Division 4  ###
+############################
+- name: NTSC-crp
+  character: ky
+
+- name: NL
+  character: potemkin
+
+- name: drssil
+  character: dizzy
+
+- name: Kawkaiw
+  character: dizzy
+
+- name: AZ
+  character: justice
+
+- name: Yatohihey
+  character: sol
+
+- name: Kawkaiw
+  character: dizzy
+
+- name: NonoHD
+  character: potemkin
+  twitter: https://twitter.com/Nono1080p
+
+- name: Kei
+  character: sol
+
