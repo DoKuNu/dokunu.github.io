@@ -17,3 +17,61 @@
 
 - name: Akabane
   character: zappa
+
+############################
+# League 1 - Division 2  ###
+############################
+- name: Poyo
+  character: ky
+  twitter: https://twitter.com/Poyo_HC
+
+- name: Millia
+  character: aba
+
+- name: Nyphi7
+  character: sol
+  twitter: https://twitter.com/nyphi7
+
+- name: Badblood
+  character: eddie  
+
+############################
+# League 1 - Division 3  ###
+############################
+- name: Eskagasse
+  character: may
+  twitter: https://twitter.com/LVansteenhuyze
+
+- name: Undeuxiemenuage
+  character: axl
+  twitter: https://twitter.com/undeuxiemenuage
+
+- name: Gekow
+  character: sol
+  twitter: https://twitter.com/Gekow_Lizard
+
+- name: Monsieur Bar
+  character: potemkin
+
+
+############################
+# League 1 - Division 4  ###
+############################
+- name: Tnor
+  character: ky
+
+- name: Masker
+  character: ordersol
+
+- name: Taylor Wesker
+  character: johnny
+
+- name: Arq
+  character: bridget
+  twitter: https://twitter.com/ArqSenpai
+
+- name: Camo
+  character: slayer
+
+- name: Keev
+  character: dizzy
