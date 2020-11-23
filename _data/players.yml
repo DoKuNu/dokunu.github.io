@@ -74,7 +74,7 @@
   character: slayer
 
 - name: Vguy
-  character: johnny
+  character: testament
 
 ############################
 # League 2 - Division 1  ###
@@ -125,45 +125,3 @@
 
 - name: Tehuur
   character: potemkin
-
-############################
-# League 2 - Division 4  ###
-############################
-- name: Achorawl
-  character: zappa
-  twitter: https://twitter.com/Achorawl
-
-- name: NTSC-crp
-  character: ky
-
-- name: Greed
-  character: aba
-
-- name: NL
-  character: potemkin
-
-- name: drssil
-  character: dizzy
-
-- name: Kawkaiw
-  character: dizzy
-
-- name: AZ
-  character: justice
-
-- name: Yatohihey
-  character: sol
-
-- name: Kawkaiw
-  character: may
-
-- name: NonoHD
-  character: potemkin
-  twitter: https://twitter.com/Nono1080p
-
-- name: Kei
-  character: sol
-
-- name: Poode
-  character: ordersol
-
