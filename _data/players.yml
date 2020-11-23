@@ -40,7 +40,7 @@
 ############################
 - name: Eskagasse
   character: may
-  twitter: https://twitter.com/LVansteenhuyze
+  twitter: https://twitter.com/Eskagasse
 
 - name: Undeuxiemenuage
   character: axl
@@ -51,7 +51,7 @@
   twitter: https://twitter.com/Gekow_Lizard
 
 - name: Monsieur Bar
-  character: potemkin
+  character: kliff
 
 
 ############################
@@ -73,28 +73,26 @@
 - name: Camo
   character: slayer
 
-- name: Keev
-  character: dizzy
+- name: Vguy
+  character: johnny
 
 ############################
 # League 2 - Division 1  ###
 ############################
+
+- name: Keev
+  character: dizzy
+
 - name: Wandrall
   character: jam
   twitter: https://twitter.com/Wandrall3
 
-- name: Achorawl
-  character: zappa
-  twitter: https://twitter.com/Achorawl
+- name: Razelle
+  character: testament
 
 - name: Cuongster
   character: eddie
   twitter: https://twitter.com/Cuongster
-
-- name: Rygz
-  character: testament
-  twitter: https://twitter.com/Rygzz
-
 ############################
 # League 2 - Division 2  ###
 ############################
@@ -114,6 +112,10 @@
 ############################
 # League 2 - Division 3  ###
 ############################
+- name: Rygz
+  character: testament
+  twitter: https://twitter.com/Rygzz
+
 - name: Robo-Qui?
   character: roboky
 
@@ -124,14 +126,18 @@
 - name: Tehuur
   character: potemkin
 
-- name: Greed
-  character: aba
-
 ############################
 # League 2 - Division 4  ###
 ############################
+- name: Achorawl
+  character: zappa
+  twitter: https://twitter.com/Achorawl
+
 - name: NTSC-crp
   character: ky
+
+- name: Greed
+  character: aba
 
 - name: NL
   character: potemkin
@@ -149,7 +155,7 @@
   character: sol
 
 - name: Kawkaiw
-  character: dizzy
+  character: may
 
 - name: NonoHD
   character: potemkin
@@ -157,4 +163,7 @@
 
 - name: Kei
   character: sol
+
+- name: Poode
+  character: ordersol
 
