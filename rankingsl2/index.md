@@ -13,7 +13,7 @@ Si vous voyez une erreur, merci de contacter DoKuNu#7777 sur Discord !
 
 ## God Tier
 
-<center>Ce tier rassemble les meilleurs joueurs, parmi ceux de League 2, c'est déjà un très bon début ! Force à vous ! Cependant le 4e du groupe est relégable au tier inférieur.</center> <br/>
+<center>Ce tier rassemble les meilleurs joueurs, parmi ceux de League 2, c'est déjà un très bon début ! Force à vous ! Les deux premiers de ce tier pourront passer en League 1. Cependant le 4e du groupe est relégable au tier inférieur.</center> <br/>
 
 | 1ER | {{site.data.players[18].name}} {% if site.data.players[18].twitter %} <a class="social-btn" href="{{site.data.players[18].twitter}}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-twitter-square"></i></a>{% endif %}| <img class="char" src="../assets/img/chars/{{site.data.players[18].character}}.png" width="200" height="200" > |
 |-----|-------------|-----|
