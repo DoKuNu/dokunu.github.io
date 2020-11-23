@@ -48,13 +48,15 @@ Si vous voyez une erreur, merci de contacter DoKuNu#7777 sur Discord !
 
 <center>Tous les autres joueurs sont ici, et les deux meilleurs peuvent grimper au tier supérieur, courage !</center> <br/>
 
-| 1ER | {{site.data.players[30].name}} {% if site.data.players[30].twitter %} <a class="social-btn" href="{{site.data.players[30].twitter}}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-twitter-square"></i></a>{% endif %}| <img class="char" src="../assets/img/chars/{{site.data.players[30].character}}.png" width="200" height="200" > |
+{% assign i = 0 %}
+{% for player in site.data.league2d4 %}
+	{% assign i = i | plus:1 %}
+
+	{% if i < 1 %}
+| 1ER | {{player.name}} {% if player.twitter %} <a class="social-btn" href="{{player.twitter}}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-twitter-square"></i></a>{% endif %}| <img class="char" src="../assets/img/chars/{{player.character}}.png" width="200" height="200" > |
 |-----|-------------|-----|
-| 2e  | {{site.data.players[31].name}} {% if site.data.players[31].twitter %} <a class="social-btn" href="{{site.data.players[31].twitter}}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-twitter-square"></i></a>{% endif %}| <img class="char" src="../assets/img/chars/{{site.data.players[31].character}}.png" width="200" height="200" > |
-| 3e  | {{site.data.players[32].name}} {% if site.data.players[32].twitter %} <a class="social-btn" href="{{site.data.players[32].twitter}}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-twitter-square"></i></a>{% endif %}| <img class="char" src="../assets/img/chars/{{site.data.players[32].character}}.png" width="200" height="200" > |
-| 4e  | {{site.data.players[33].name}} {% if site.data.players[33].twitter %} <a class="social-btn" href="{{site.data.players[33].twitter}}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-twitter-square"></i></a>{% endif %}| <img class="char" src="../assets/img/chars/{{site.data.players[33].character}}.png" width="200" height="200" > |
-| 5e  | {{site.data.players[34].name}} {% if site.data.players[34].twitter %} <a class="social-btn" href="{{site.data.players[34].twitter}}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-twitter-square"></i></a>{% endif %}| <img class="char" src="../assets/img/chars/{{site.data.players[34].character}}.png" width="200" height="200" > |
-| 6e  | {{site.data.players[35].name}} {% if site.data.players[35].twitter %} <a class="social-btn" href="{{site.data.players[35].twitter}}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-twitter-square"></i></a>{% endif %}| <img class="char" src="../assets/img/chars/{{site.data.players[35].character}}.png" width="200" height="200" > |
-| 7e  | {{site.data.players[36].name}} {% if site.data.players[36].twitter %} <a class="social-btn" href="{{site.data.players[36].twitter}}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-twitter-square"></i></a>{% endif %}| <img class="char" src="../assets/img/chars/{{site.data.players[36].character}}.png" width="200" height="200" > |
-| 8e  | {{site.data.players[37].name}} {% if site.data.players[37].twitter %} <a class="social-btn" href="{{site.data.players[37].twitter}}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-twitter-square"></i></a>{% endif %}| <img class="char" src="../assets/img/chars/{{site.data.players[37].character}}.png" width="200" height="200" > |
-| 9e  | {{site.data.players[38].name}} {% if site.data.players[38].twitter %} <a class="social-btn" href="{{site.data.players[38].twitter}}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-twitter-square"></i></a>{% endif %}| <img class="char" src="../assets/img/chars/{{site.data.players[38].character}}.png" width="200" height="200" > |
+	{% else %}
+| {{i}}e  | {{player.name}} {% if player.twitter %} <a class="social-btn" href="{{player.twitter}}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-twitter-square"></i></a>{% endif %}| <img class="char" src="../assets/img/chars/{{player.character}}.png" width="200" height="200" > |
+	{% endif %}
+
+{% endfor %}
