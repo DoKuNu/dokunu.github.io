@@ -1,13 +1,6 @@
 ############################
 # League 2 - Division 4  ###
 ############################
-- name: Achorawl
-  character: zappa
-  twitter: https://twitter.com/Achorawl
-
-- name: NTSC-crp
-  character: ky
-
 - name: Greed
   character: aba
 
@@ -17,20 +10,7 @@
 - name: drssil
   character: aba
 
-- name: Kawkaiw
-  character: may
-
-- name: AZ
-  character: justice
-
 - name: Yatohihey
-  character: sol
-
-- name: NonoHD
-  character: potemkin
-  twitter: https://twitter.com/Nono1080p
-
-- name: Kei
   character: sol
 
 - name: Poode
