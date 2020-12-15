@@ -11,7 +11,7 @@ Si vous voyez une erreur, merci de contacter DoKuNu#7777 sur Discord !
 
 # League 1
 
-## God Tier
+## Division 1 (God Tier)
 
 <center>Ce tier rassemble les meilleurs joueurs, ceux qui ont su s'illustrer, ceux qui brillent... Cependant le 4e du groupe est relégable au tier inférieur.</center> <br/>
 
@@ -28,7 +28,7 @@ Si vous voyez une erreur, merci de contacter DoKuNu#7777 sur Discord !
 
 {% endfor %}
 
-## Top Tier
+## Division 2 (Top Tier)
 
 <center>Le meilleur joueur de ce tier pourra monter au tier supérieur, et le moins bon peut être relégué.</center> <br/>
 
@@ -45,7 +45,7 @@ Si vous voyez une erreur, merci de contacter DoKuNu#7777 sur Discord !
 
 {% endfor %}
 
-## Mid Tier
+## Division 3 (Mid Tier)
 
 <center>Le meilleur joueur de ce tier pourra monter au tier supérieur, mais les 2 moins bons vont être relegués.</center> <br/>
 
@@ -62,7 +62,7 @@ Si vous voyez une erreur, merci de contacter DoKuNu#7777 sur Discord !
 
 {% endfor %}
 
-## Low Tier
+## Division 4 (Low Tier)
 
 <center>Les 2 meilleurs de ce tier peuvent monter au tier supérieur, et les 2 moins bons seront relégués en League 2.</center> <br/>
 
