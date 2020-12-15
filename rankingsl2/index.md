@@ -70,7 +70,7 @@ Si vous voyez une erreur, merci de contacter DoKuNu#7777 sur Discord !
 {% for player in site.data.league2d4 %}
 	{% assign i = i | plus:1 %}
 
-	{% if i < 1 %}
+	{% if i < 2 %}
 | 1ER | {{player.name}} {% if player.twitter %} <a class="social-btn" href="{{player.twitter}}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-twitter-square"></i></a>{% endif %}| <img class="char" src="../assets/img/chars/{{player.character}}.png" width="200" height="200" > |
 |-----|-------------|-----|
 	{% else %}
