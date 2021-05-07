@@ -1,0 +1,38 @@
+body {
+	background-color: #151e1e;
+	color: #FFFFFF;
+}
+
+.poem
+{
+    text-align: center !important;
+}
+
+.poem ul, .poem ol
+{
+    list-style-type: none;
+}
+
+.poem li
+{
+  font-family:Times New Roman;
+  font-style:italic;
+  padding-bottom: 0.1em;
+}
+
+.poem p
+{
+    /* Configure your poem paragraph here */
+}
+
+.poem li:first-child::first-letter
+{
+  font-size:26px;
+  font-style:italic;
+  padding-right:3px;
+}
+
+.poem li:not(:first-child)
+{
+  margin-left: 26px;
+}
