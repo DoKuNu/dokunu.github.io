@@ -1,0 +1,245 @@
+div{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+body {
+    background-color: rgba(255,0,0,0.6);
+}
+#borderscreen {
+    position: absolute;
+    z-index: 0;
+    width: 1100px;
+    height: 750px;
+    margin-left: 15%;
+    margin-top: -10px;
+    background-color: #C00D0D;
+    border-radius: 30px;
+    box-shadow: -10px 8px 1px 3px #600707;
+}
+.hide {
+    display: none;
+}
+#field {
+    margin-top: 20px;
+    margin-left: 150px;
+    width: 800px;
+    height: 480px;
+    background-image: url('img/field.jpg');
+    z-index: 1;
+    border-style: groove;
+    border-width: 5px;
+}
+#textbox {
+    width: 800px;
+    height: 145px;
+    margin-left: 150px;
+    background-image: url('img/box.png');
+    z-index: 2;
+}
+#text {
+    padding-left: 30px;
+    padding-top: 16px;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    z-index: 3;
+}
+#subtext {
+    padding-left: 30px;
+    padding-top: 46px;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    z-index: 3;
+}
+#doku {
+    transform: scale(3,3);
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 620px;
+    width: 34px;
+    height: 71px;
+    background-image: url('img/trainer.png');
+    z-index: 2;
+}
+#namedoku {
+    position: absolute;
+    font-size: 28px;
+    margin-top: 20px;
+    margin-left: 10px;
+    font-family: 'Roboto', sans-serif;
+    z-index: 2;
+}
+#dokubar {
+    position: absolute;
+    width: 146px;
+    height: 12px;
+    background-color: limegreen;
+    border-radius: 2px;
+    margin-top: 70px;
+    margin-left: 150px;
+    -webkit-transition:300ms linear;
+    -moz-transition:300ms linear;
+    -o-transition:300ms linear;
+    -ms-transition:300ms linear;
+    transition:300ms linear;
+    z-index: 3;
+}
+#hpdoku {
+    position: absolute;
+    margin-top: 5px;
+    width: 360px;
+    height: 105px;
+    background-image: url('img/hpbar_enemy.png');
+    z-index: 3;
+}
+#hpally {
+    position: absolute;
+    margin-top: 320px;
+    margin-left: 416px;
+    width: 384px;
+    height: 141px;
+    background-image: url('img/hpbar_own.png');
+    z-index: 3;
+}
+#allybar {
+    position: absolute;
+    width: 146px;
+    height: 12px;
+    background-color: limegreen;
+    border-radius: 2px;
+    margin-top: 73px;
+    margin-left: 215px;
+    z-index: 4;
+}
+#nameally {
+    position: absolute;
+    font-size: 28px;
+    margin-top: 25px;
+    margin-left: 60px;
+    font-family: 'Roboto', sans-serif;
+    z-index: 3;
+}
+#ally {
+    transform: scale(3,3);
+    position: absolute;
+    margin-top: 368px;
+    margin-left: 150px;
+    width: 70px;
+    height: 56px;
+    background-image: url('img/pikachu.png');
+    z-index: 2;
+}
+#attackbox {
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 280px;
+    width: 124px;
+    height: 55px;
+    background-image: url('img/atkbox.png');
+    transform: scale(3,3);
+    z-index: 1;
+}
+#attackname {
+    margin-top: 10px;
+    margin-left: 45px;
+    z-index: 2;
+}
+#attackPP {
+    margin-left: 50px;
+    z-index: 2;
+}
+#itembox {
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 700px;
+    width: 124px;
+    height: 55px;
+    background-image: url('img/itembox.png');
+    transform: scale(3,3);
+    z-index: 1;
+}
+#itemname {
+    margin-top: 10px;
+    margin-left: 20px;
+    z-index: 2;
+}
+#itemquantity {
+    margin-left: 80px;
+    z-index: 2;
+}
+#itemsprite {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    background-image: url('img/ball.png');
+    margin-left: 25px;
+    z-index: 2;
+}
+#note {
+    margin-left: 400px;
+    margin-top: 350px;
+    position: absolute;
+    background-image: url('img/note.png');
+    width: 24px;
+    height: 28px;
+    opacity: 0;
+    z-index: 4;
+}
+#ball {
+    margin-left: 380px;
+    margin-top: 350px;
+    position: absolute;
+    background-image: url('img/ball.png');
+    width: 18px;
+    height: 18px;
+    transform: scale(2,2);
+    opacity: 0;
+    z-index: 4;
+}
+#secondball {
+    margin-left: 630px;
+    margin-top: 195px;
+    position: absolute;
+    background-image: url('img/ball.png');
+    width: 18px;
+    height: 18px;
+    transform: scale(2,2);
+    opacity: 0;
+    z-index: 4;
+    -webkit-transition: -webkit-transform .2s linear;
+}
+#thirdball {
+    margin-left: 630px;
+    margin-top: 175px;
+    position: absolute;
+    background-image: url('img/balltick.png');
+    width: 18px;
+    height: 18px;
+    transform: scale(2,2);
+    opacity: 0;
+    z-index: 4;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+}
+#disclaimer {
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    margin-left: 620px;
+    margin-top: 860px;
+    border-style: dotted;
+    border-width: 2px;
+}
+.rotate {
+    -webkit-transform : rotate(30deg);
+}
+.rotatebis {
+    -webkit-transform : rotate(-60deg);
+}
+.pointer {
+    cursor: pointer;
+}
